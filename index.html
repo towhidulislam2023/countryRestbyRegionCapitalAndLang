@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryRestBd</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex flex-col justify-center items-center">
+        <h1 class="text-6xl my-8">Countrys</h1>
+        <select class="select select-warning w-full max-w-xs" id="selectContainer">
+            <option disabled selected>Pick a region</option>
+        </select>
+        <select class="select select-warning w-full max-w-xs my-6" id="selectCapitalContainer">
+            <option disabled selected>Pick a Capital City</option>
+        </select>
+        <select class="select select-warning w-full max-w-xs my-6" id="selectLangContainer">
+            <option disabled selected>Pick a Capital City</option>
+        </select>
+    <option value=""></option>
+    </div>
+    <main class="w-[90%] mx-auto">
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8" id="divContainer">
+
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                   
+                  </div> -->
+
+            </div>
+
+        </section>
+    </main>
+</body>
+
+
+
+<script src="./js/main.js"></script>
+<script src="./js/capitalCity.js"></script>
+<script src="./js/lang.js"></script>
+
+</html>
